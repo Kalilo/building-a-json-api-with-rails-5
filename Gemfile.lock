@@ -49,6 +49,7 @@ GEM
     case_transform (0.2)
       activesupport
     concurrent-ruby (1.0.4)
+    dalli (2.7.6)
     erubis (2.7.0)
     ffi (1.9.17)
     globalid (0.3.7)
@@ -133,6 +134,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.10.0)
   byebug
+  dalli (~> 2.7.4)
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.1)
